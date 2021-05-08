@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ensat" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-6SOT833\SQLEXPRESS;Initial Catalog=ensat;Integrated Security=True" SettingsObjectName="Interface_Etudiant.Properties.Settings" SettingsPropertyName="tp6ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.questions" Member="questions">
+    <Type Name="questions">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ref" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="intitule" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="option1" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="option2" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="option3" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="option4" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Reponse_correcte" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="poids" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
